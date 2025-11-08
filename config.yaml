@@ -1,0 +1,16 @@
+models:
+  chat_model:
+    type: doubao
+    model: 'doubao-seed-1-6-251015'
+    api_base: 'https://ark.cn-beijing.volces.com/api/v3'
+    api_key: $DOUBAO_API_KEY  # 使用环境变量
+    temperature: 0
+    max_tokens: 8192
+    extra_body:
+      reasoning_effort: 'medium'
+
+tools:
+  mcp_servers:
+    context7:
+      transport: 'streamable_http'
+      url: 'https://mcp.context7.com/mcp'
