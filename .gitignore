@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+env.local/
+env.development.local/
+env.test.local/
+env.production.local/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 配置和密钥
+config.yaml
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# 日志
+*.log
+logs/
+
+# 测试
+.pytest_cache/
+.coverage
+coverage.xml
+
+# 构建
+build/
+dist/
+*.egg-info/
+
+# IDE
+eclipse/
+netbeans/
+.vscode/
+.idea/
